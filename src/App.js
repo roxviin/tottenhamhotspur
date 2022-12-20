@@ -42,7 +42,7 @@ function App() {
 <>
 
        
-<BrowserRouter basename="/tottenhamhotspur/">
+<BrowserRouter basename="/tottenhamhotspur">
 
 
   <Routes>

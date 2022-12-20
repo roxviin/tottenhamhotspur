@@ -42,7 +42,7 @@ function App() {
 <>
 
        
-<BrowserRouter basename={process.env.PUBLIC_URL}>
+<BrowserRouter basename="/tottenhamhotspur/">
 
 
   <Routes>

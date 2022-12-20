@@ -51,12 +51,11 @@ function App() {
 
       <Route path="/" exact element={<Home />} />
 
-      <Route path="/team" element={<Team />} />
+      <Route path="tottenhamhotspur/team" exact element={<Team />} />
       <Route path="/team2" element={<Team2 />} />
     
 
    
-
 
       <Route path="/player" element={<Player />} />
       <Route path="/player2" element={<Player2/>} />

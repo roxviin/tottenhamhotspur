@@ -8,7 +8,7 @@ function NavbarDarkExample() {
   return (
     <div className="navigation">
       
- <Navbar variant="dark" bg="white" expand="lg" basename="/tottenhamhotspur">
+ <Navbar variant="dark" bg="white" expand="lg" >
       <Container fluid>
       <Navbar.Brand href="/">
       <img
@@ -33,7 +33,7 @@ function NavbarDarkExample() {
               
             >
                 
-            <NavDropdown.Item href="/team">구단연혁</NavDropdown.Item>
+            <NavDropdown.Item href="/team" basename="/tottenhamhotspur">구단연혁</NavDropdown.Item>
             <NavDropdown.Divider /> 
               <NavDropdown.Item href="/team2">구단영예</NavDropdown.Item>
             </NavDropdown>

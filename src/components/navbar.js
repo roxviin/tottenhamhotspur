@@ -33,7 +33,7 @@ function NavbarDarkExample() {
               
             >
                 
-            <NavDropdown.Item href="/team" basename="/tottenhamhotspur">구단연혁</NavDropdown.Item>
+            <NavDropdown.Item href="/tottenhamhotspur/team" >구단연혁</NavDropdown.Item>
             <NavDropdown.Divider /> 
               <NavDropdown.Item href="/team2">구단영예</NavDropdown.Item>
             </NavDropdown>

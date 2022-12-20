@@ -31,7 +31,7 @@ function App() {
 
 <div className="Player">
 
-<NavbarDarkExample basename="/tottenhamhotspur"/>
+<NavbarDarkExample />
 
 </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes, HashRouter } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Team from './components/page/Team/Team';
 import Player from './components/page/Player/Player';
 import Home from './components/page/Home';
@@ -42,7 +42,7 @@ function App() {
 <>
 
        
-<HashRouter >
+<BrowserRouter basename={process.env.PUBLIC_URL}>
 
 
   <Routes>
@@ -82,7 +82,7 @@ function App() {
      
 
   </Routes>
-</HashRouter>
+</BrowserRouter>
 </>
 
 </div>

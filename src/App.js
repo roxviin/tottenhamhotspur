@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Team from './components/page/Team/Team';
 import Player from './components/page/Player/Player';
 import Home from './components/page/Home';
@@ -42,7 +42,7 @@ function App() {
 <>
 
        
-<BrowserRouter basename="/tottenhamhotspur">
+<HashRouter basename={process.env.PUBLIC_URL}>
 
 
   <Routes>
@@ -51,11 +51,12 @@ function App() {
 
       <Route path="/" exact element={<Home />} />
 
-      <Route path="tottenhamhotspur/team" exact element={<Team />} />
+      <Route path="/team" exact element={<Team />} />
       <Route path="/team2" element={<Team2 />} />
     
 
    
+
 
       <Route path="/player" element={<Player />} />
       <Route path="/player2" element={<Player2/>} />
@@ -81,7 +82,7 @@ function App() {
      
 
   </Routes>
-</BrowserRouter>
+</HashRouter>
 </>
 
 </div>

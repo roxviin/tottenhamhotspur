@@ -8,7 +8,7 @@ function NavbarDarkExample() {
   return (
     <div className="navigation">
       
- <Navbar variant="dark" bg="white" expand="lg">
+ <Navbar variant="dark" bg="white" expand="lg" basename="/tottenhamhotspur">
       <Container fluid>
       <Navbar.Brand href="/">
       <img

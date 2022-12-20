@@ -42,7 +42,7 @@ function App() {
 <>
 
        
-<HashRouter basename={process.env.PUBLIC_URL}>
+<HashRouter >
 
 
   <Routes>
